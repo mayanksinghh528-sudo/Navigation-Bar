@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 30vh;
+            background: linear-gradient(90deg, #ffb300, #fff200);
+            font-family: "Times New Roman", serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar {
+            width: 86%;
+            height: 98px;
+            margin: 386px auto 0;
+            background: #f66d00;
+            border: 1px solid #000;
+            border-radius: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+        }
+
+        .navbar a {
+            color: blue;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .navbar a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .navbar a.active {
+            font-weight: bold;
+        }
+/* 
+        @media (max-width: 900px) {
+            .navbar {
+                width: 92%;
+                height: auto;
+                min-height: 80px;
+                /* margin-top: 250px;
+                 
+                padding: 20px;
+                gap: 30px;
+                flex-wrap: wrap;
+            }
+
+            .navbar a {
+                font-size: 20px;
+            }
+        /* }  */
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html" class="">About Us</a>
+            <a href="gallery.html" class="">Gallery</a>
+            <a href="achievements.html" class="">Achievements</a>
+            <a href="contact.html" class="">Contact Us</a>
+    </nav>
+</body>
+</html>
